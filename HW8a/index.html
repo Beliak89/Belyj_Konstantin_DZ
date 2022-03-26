@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Maket_form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <p>
+          Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+        </p>
+        <div class="name">Название статьи:</div>
+        <div class="input">
+          <input type="text" name="articlename" />
+        </div>
+        <div class="name">Рубрика:</div>
+        <div class="input">
+          <select name="heading">
+            <option value="1">программирование</option>
+            <option value="2">математический анализ</option>
+            <option value="3">статистика</option>
+          </select>
+        </div>
+        <div class="name">Публикация:</div>
+        <div class="input-radio">
+          <div class="radio">
+            <input
+              type="radio"
+              class="margins"
+              name="publication"
+              value="4"
+            />на сайте
+          </div>
+          <div class="radio">
+            <input type="radio" name="publication" value="5" />в журнале
+          </div>
+          <div class="radio">
+            <input type="radio" name="publication" value="6" />на сайте и в
+            журнале
+          </div>
+        </div>
+        <div class="name-check">Разрешить комментарии:</div>
+        <div class="input">
+          <input type="checkbox" name="allow" checked />
+        </div>
+        <div class="name">Текст статьи:</div>
+        <div class="textarea">
+          <textarea name="articletext"></textarea>
+        </div>
+        <input type="submit" value="Опубликовать" />
+      </form>
+    </div>
+  </body>
+</html>
