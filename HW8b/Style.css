@@ -1,0 +1,32 @@
+img {
+  position: absolute;
+}
+.container {
+  width: 450px;
+  height: 385px;
+  margin: 0 auto;
+  position: relative;
+}
+.img1:hover {
+  position: relative;
+  z-index: 1;
+}
+.img2 {
+  left: 240px;
+}
+.img2:hover {
+  position: relative;
+  z-index: 1;
+}
+.img3 {
+  top: 180px;
+  left: 100px;
+}
+.img3:hover {
+  position: relative;
+  z-index: 1;
+}
+.img4 {
+  top: 35px;
+  left: 80px;
+}
